@@ -16,8 +16,8 @@ body {
   font-size: 2rem;
   font-weight: 300;
   color: var(--blue-950);
-  background-image: url("/images/pattern-bg.svg"),
-    url("/images/pattern-curve.svg");
+  background-image: url("./images/pattern-bg.svg"),
+    url("./images/pattern-curve.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 50%, 80%;
   background-position: top 10% right, bottom left;
@@ -39,7 +39,7 @@ h2 {
   letter-spacing: 0.0938rem;
   line-height: 2.75rem;
   position: relative;
-  background-image: url("/images/pattern-quotes.svg");
+  background-image: url("./images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-position: top left 20%;
   padding-top: 3.75rem;
@@ -162,7 +162,7 @@ footer {
 .mobile--h1 {
   font-size: 1.625rem;
   line-height: 2.25rem;
-  background-image: url("/images/pattern-quotes.svg");
+  background-image: url("./images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-position: top 1.5rem center;
   background-size: 20%;
@@ -248,8 +248,8 @@ aside.text2 {
 
 @media (max-width: 48.125rem) {
   body {
-    background-image: url("/images/pattern-bg.svg"),
-      url("/images/pattern-curve.svg");
+    background-image: url("./images/pattern-bg.svg"),
+      url("./images/pattern-curve.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 90%, 80%;
     background-position: top 5% center, bottom left;
